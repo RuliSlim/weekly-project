@@ -1,0 +1,70 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+
+/* Header */
+header{
+  background-color:rgb(61, 61, 61);
+}
+nav li a{
+  color: rgb(255, 255, 255);
+}
+
+/* main section */
+.showcase{
+  background-color:rgb(238, 238, 238) ;
+}
+
+
+/* card section */
+
+
+#searchbar{
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 12px;
+}
+
+button{
+  height:30px ;
+  width: 80px;
+  color: white;
+  font-size: 14px;
+  background-color: rgb(48, 48, 48);
+  border-radius: 5px;
+}
+
+.card img{
+  padding: 10px;
+}
+.cards{
+  border: 1px solid grey;
+  background-color: white;
+  width: 150px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* footer */
+footer{
+  background: rgb(187, 187, 187);
+
+}
+
+.social{
+  text-align: center;
+}
+
+.social img{
+  padding:40px 20px;
+}
