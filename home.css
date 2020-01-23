@@ -1,0 +1,129 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+/* Header */
+header{
+  background-color:rgb(61, 61, 61);
+}
+nav li a{
+  color: rgb(255, 255, 255);
+}
+
+/* main section */
+main{
+  text-align: center;
+}
+.main-sec{
+  margin: 10vh auto;
+}
+.text1{
+  padding: 5px;
+}
+.text2{
+  padding: 5px;
+}
+
+/* card section */
+.showcase{
+  background-color:rgb(238, 238, 238) ;
+  
+  }
+.search{
+  padding: 20px;
+  text-align: center;
+}
+
+#searchbar{
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 12px;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+button{
+  height:30px ;
+  width: 80px;
+  color: white;
+  font-size: 14px;
+  background-color: rgb(48, 48, 48);
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(204, 204, 204);
+  color: rgb(65, 65, 65);
+}
+
+.card{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  padding-bottom: 50px;
+}
+@media only screen and (max-width:600px){
+  .card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.cards h2{
+  font-size: 18px;
+  padding: 5px;
+}
+
+.cards h3{
+  font-size: 14px;
+  padding: 5px;
+}
+
+.card img{
+  padding: 10px;
+}
+.cards{
+  background-color: rgb(255, 255, 255);
+  width: 150px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px;
+  box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.171);
+}
+.cards:hover{
+  transform: scale(1.1);
+}
+
+/* footer */
+footer{
+  background: rgb(187, 187, 187);
+
+}
+
+.social{
+  text-align: center;
+}
+
+.social img{
+  padding:40px 20px;
+  cursor: pointer;
+}
+.social img:hover{
+  transform: scale(1.2);
+
+}
