@@ -99,6 +99,10 @@ button:hover{
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .navigation{
+    float: right;
+    padding: 23px 10px;
+  }
 }
 
 .cards h2{
