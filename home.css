@@ -9,6 +9,10 @@ a{
 ul{
   list-style-type: none;
 }
+.container{
+  width: 80%;
+  margin: auto;
+}
 
 /* Header */
 header{
@@ -19,13 +23,20 @@ nav li a{
 }
 
 /* main section */
-.showcase{
-  background-color:rgb(238, 238, 238) ;
+main{
+  text-align: center;
 }
 
 
 /* card section */
-
+  .showcase{
+  background-color:rgb(238, 238, 238) ;
+  
+  }
+.search{
+  padding: 20px;
+  text-align: center;
+}
 
 #searchbar{
   height: 30px;
@@ -33,6 +44,8 @@ nav li a{
   border-radius: 5px;
   width: 200px;
   font-size: 12px;
+  padding-left: 10px;
+  margin-right: 10px;
 }
 
 button{
@@ -42,17 +55,43 @@ button{
   font-size: 14px;
   background-color: rgb(48, 48, 48);
   border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(204, 204, 204);
+  color: rgb(65, 65, 65);
+}
+
+.card{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.cards h2{
+  font-size: 18px;
+  padding: 10px;
+}
+
+.cards h3{
+  font-size: 14px;
+  padding: 5px;
 }
 
 .card img{
   padding: 10px;
 }
 .cards{
-  border: 1px solid grey;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   width: 150px;
   border-radius: 10px;
   text-align: center;
+  cursor: pointer;
+  margin: 10px;
+  box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.171);
+}
+.cards:hover{
+  transform: scale(1.1);
 }
 
 /* footer */
@@ -67,4 +106,9 @@ footer{
 
 .social img{
   padding:40px 20px;
+  cursor: pointer;
+}
+.social img:hover{
+  transform: scale(1.2);
+
 }
